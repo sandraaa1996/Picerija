@@ -1,0 +1,54 @@
+.kontejner
+{
+    display: flex;
+    border:4px solid brown;
+    background-color: beige;
+    border-radius: 5mm;
+}
+.kontForma
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis:200px;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(138, 48, 4);
+
+}
+.kontStolovi
+{
+    display: flex;
+    flex-grow:1;
+    flex-direction: column;
+}
+.red
+{
+    display: flex;
+    flex-grow:1;
+}
+.sto 
+{
+    border:2px solid rgb(122, 5, 5);
+    border-radius: 30%;
+    flex: 1 1 10px;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+    background-color:rgb(201, 142, 109);
+    color:rgb(47, 58, 160);
+}
+.dugme
+{
+    text-align: center;
+    color:rgb(3, 65, 201);
+    border-radius: 20px;
+    border-color: sienna;
+    font-weight:bold;
+}
+.h3
+{
+    text-decoration-line: underline;
+    color:blue;
+}
